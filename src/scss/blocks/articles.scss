@@ -1,0 +1,11 @@
+.articles {
+  padding: 88px 0;
+
+  &__title {
+    margin-bottom: 31px;
+    font-weight: 100;
+    font-size: $title-fz;
+    text-align: center;
+    color: $title-color;
+  }
+}

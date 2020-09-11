@@ -5,7 +5,7 @@ const sourcemaps = require("gulp-sourcemaps")
 const server = require("browser-sync");
 
 gulp.task("css", function () {
-  return gulp.src("src/sass/style.sass")
+  return gulp.src("src/scss/style.scss")
     .pipe(plumber())
     .pipe(sourcemaps.init())
     .pipe(sass())
@@ -30,7 +30,7 @@ gulp.task("refresh", function (done) {
 });
 
 
-gulp.watch("src/sass/**/*.sass", gulp.series("css"));
+gulp.watch("src/scss/**/*.scss", gulp.series("css"));
 gulp.watch("src/*.html", gulp.series("refresh"));
 gulp.watch("src/*.html").on("change", server.reload);
 

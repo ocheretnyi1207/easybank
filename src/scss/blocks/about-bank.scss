@@ -1,0 +1,25 @@
+.about-bank {
+  padding-top: 322px;
+  padding-bottom: 88px;
+  background-image: url("../img/bg-about.jpg");
+  background-repeat: no-repeat;
+  background-position: -41px -152px;
+
+  &__heading {
+    margin-bottom: 17px;
+    font-weight: 100;
+    font-size: $heading-fz;
+    text-align: center;
+    color: $title-color;
+  }
+
+  &__text {
+    width: 327px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: $text-fz;
+    line-height: 1.563rem;
+    text-align: center;
+    color: $text-color;
+  }
+}
