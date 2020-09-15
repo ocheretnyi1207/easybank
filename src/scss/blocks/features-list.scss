@@ -1,8 +1,7 @@
 .features-list {
   @include reset-list;
 
-  width: 327px;
-  margin: 0 auto;
+  padding: 0 26px;
 
   &__item {
     position: relative;
@@ -13,7 +12,7 @@
       content: "";
       position: absolute;
       top: 15px;
-      left: 145px;
+      left: calc(50% - 40px / 2);
       width: 40px;
       height: 40px;
       background-image: url("../img/icon-banking.svg");
@@ -23,7 +22,7 @@
       content: "";
       position: absolute;
       top: 15px;
-      left: 152px;
+      left: calc(50% - 33px / 2);
       width: 33px;
       height: 40px;
       background-image: url("../img/icon-budgeting.svg");
@@ -33,7 +32,7 @@
       content: "";
       position: absolute;
       top: 15px;
-      left: 145px;
+      left: calc(50% - 40px / 2);
       width: 40px;
       height: 40px;
       background-image: url("../img/icon-onboarding.svg");
@@ -43,7 +42,7 @@
       content: "";
       position: absolute;
       top: 15px;
-      left: 145px;
+      left: calc(50% - 40px / 2);
       width: 40px;
       height: 40px;
       background-image: url("../img/icon-api.svg");
@@ -53,7 +52,7 @@
       content: "";
       position: absolute;
       top: 0;
-      left: calc(50% - 36px);
+      left: calc(50% - 72px / 2);
       width: 72px;
       height: 72px;
       background-image: linear-gradient(135deg, #33d35e 0%, #2ab6d9 100%);

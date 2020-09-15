@@ -5,8 +5,8 @@
   "scripts": {
     "start": "gulp start",
     "build": "gulp build",
-    "lint-css": "stylelint \"src/scss/*.scss\" --syntax scss",
-    "fix-css": "stylelint \"src/scss/**/*.scss\" --fix scss"
+    "test": "stylelint \"src/scss/*.scss\" --syntax scss",
+    "fix": "stylelint \"src/scss/**/*.scss\" --fix scss"
   },
   "browserslist": [
     "last 2 versions",

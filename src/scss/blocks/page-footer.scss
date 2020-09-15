@@ -1,9 +1,24 @@
 .page-footer {
+  padding-bottom: 40px;
   background-color: $title-color;
 
   &__wrapper {
     width: 209px;
     margin: 0 auto;
     padding-top: 40px;
+  }
+
+  &__logo {
+    display: block;
+    width: 139px;
+    margin-right: auto;
+    margin-bottom: 34px;
+    margin-left: auto;
+  }
+
+  &__copyrights {
+    font-size: $text-fz;
+    text-align: center;
+    color: #ffffff;
   }
 }

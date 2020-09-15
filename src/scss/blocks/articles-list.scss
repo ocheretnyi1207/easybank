@@ -1,8 +1,7 @@
 .articles-list {
   @include reset-list;
 
-  width: 327px;
-  margin: 0 auto;
+  padding: 0 26px;
 
   &__item {
     margin-bottom: 24px;
@@ -13,12 +12,13 @@
     }
 
     img {
+      display: block;
+      margin: 0 auto;
       margin-bottom: 25px;
     }
 
     &-wrapper {
-      width: 280px;
-      margin: 0 auto;
+     padding: 0 22px;
     }
 
     &-author {

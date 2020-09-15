@@ -1,0 +1,48 @@
+.social-icons {
+  @include reset-list;
+
+  display: flex;
+  flex-basis: 24px;
+  justify-content: space-between;
+  width: 184px;
+  margin-bottom: 54px;
+
+  &__item {
+    position: relative;
+
+    a {
+      cursor: url("../img/cursor.svg"), pointer;
+    }
+
+    a::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 24px;
+      height: 24px;
+    }
+
+    &:first-child a::before {
+      background-image: url("../img/icon-facebook.svg");
+    }
+
+    &:nth-child(5n+2) a::before {
+      background-image: url("../img/icon-youtube.svg");
+    }
+
+    &:nth-child(5n+3) a::before {
+      top: 2px;
+      height: 20px;
+      background-image: url("../img/icon-twitter.svg");
+    }
+
+    &:nth-child(5n+4) a::before {
+      background-image: url("../img/icon-pinterest.svg");
+    }
+
+    &:last-child a::before {
+      background-image: url("../img/icon-instagram.svg");
+    }
+  }
+}

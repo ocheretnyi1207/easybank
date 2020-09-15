@@ -1,0 +1,25 @@
+.footernav-list {
+  @include reset-list;
+
+  margin-bottom: 32px;
+  text-align: center;
+
+  a {
+    font-size: $text-fz;
+    color: #ffffff;
+    text-decoration: none;
+
+    &:hover {
+      cursor: url("../img/cursor.svg"), pointer;
+      color: $hover-color;
+    }
+  }
+
+  &__item {
+    margin-bottom: 16px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
