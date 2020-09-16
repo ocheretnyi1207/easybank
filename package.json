@@ -6,7 +6,8 @@
     "start": "gulp start",
     "build": "gulp build",
     "test": "stylelint \"src/scss/*.scss\" --syntax scss",
-    "fix": "stylelint \"src/scss/**/*.scss\" --fix scss"
+    "fix": "stylelint \"src/scss/**/*.scss\" --fix scss",
+    "image": "gulp image"
   },
   "browserslist": [
     "last 2 versions",
@@ -18,6 +19,7 @@
     "bootstrap": "^4.5.2",
     "browser-sync": "^2.26.12",
     "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
     "gulp-plumber": "^1.2.1",
     "gulp-sass": "^4.1.0",
     "gulp-sourcemaps": "^2.6.5",

@@ -3,23 +3,17 @@
 
 <head>
   <title>Easy Bank</title>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap-grid.min.css">
-
-  <!-- Custom CSS -->
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
 <body>
   <header class="page-header">
     <div class="container">
-      <div class="row">
+      <div class="row no-gutters">
         <nav class="page-header__nav">
-          <a class="page-header__logo col-auto" href="#">
+          <a class="page-header__logo" href="#">
             <img src="../img/logo-header.svg" width="139" height="20" alt="EasyBank Logo">
           </a>
           <ul class="headernav-list headernav-list--hide col-auto">
@@ -29,21 +23,22 @@
             <li class="headernav-list__item"><a href="#">Blog</a></li>
             <li class="headernav-list__item"><a href="#">Careers</a></li>
           </ul>
-          <button class="page-header__btn col-auto">Open Menu</button>
+          <button class="page-header__btn">Open Menu</button>
         </nav>
       </div>
     </div>
   </header>
   <main class="page-main">
-    <div class="container">
-      <section class="about-bank">
+    <section class="about-bank">
+      <div class="container">
         <h1 class="about-bank__heading">Next generation digital banking</h1>
         <p class="about-bank__text">Take your financial life online. Your Easybank account will be a
           one-stop-shop
           for spending, saving, budgeting, investing, and much more.</p>
         <button class="invite-btn">Request Invite</button>
-      </section>
-      <section class="features">
+    </section>
+    <section class="features">
+      <div class="container">
         <h2 class="features__title">Why choose Easybank?</h2>
         <p class="features__text">We leverage Open Banking to turn your bank account into your financial hub.
           Control your finances like never before.</p>
@@ -69,50 +64,70 @@
               account. Tracking your money has never been easier.</p>
           </li>
         </ul>
-      </section>
-      <section class="articles">
+      </div>
+    </section>
+    <section class="articles">
+      <div class="container">
         <h2 class="articles__title">Latest Articles</h2>
         <ul class="articles-list">
           <li class="articles-list__item">
-            <img src="./img/article-1.jpg" alt="" width="327" height="200">
+            <picture>
+              <source srcset="img/article-1-tablet.jpg" media="(min-width: 576px)">
+              <img src="img/article-1.jpg" alt="Article Image">
+            </picture>
             <div class="articles-list__item-wrapper">
               <p class="articles-list__item-author">By Claire Robinson</p>
               <p class="articles-list__item-title">Receive money in any currency with no fees</p>
-              <p class="articles-list__item-description">The world is getting smaller and we’re becoming more mobile. So why
+              <p class="articles-list__item-description">The world is getting smaller and we’re becoming more mobile. So
+                why
                 should you be forced to only receive money in a single …</p>
             </div>
           </li>
           <li class="articles-list__item">
-            <img src="./img/article-2.jpg" alt="" width="327" height="200">
+            <picture>
+              <source srcset="img/article-2-tablet.jpg" media="(min-width: 576px)">
+              <img src="./img/article-2.jpg" alt="Article Image">
+            </picture>
             <div class="articles-list__item-wrapper">
               <p class="articles-list__item-author">By Wilson Hutton</p>
               <p class="articles-list__item-title">Treat yourself without worrying about money</p>
-              <p class="articles-list__item-description">Our simple budgeting feature allows you to separate out your spending
+              <p class="articles-list__item-description">Our simple budgeting feature allows you to separate out your
+                spending
                 and set realistic limits each month. That means you …</p>
             </div>
           </li>
           <li class="articles-list__item">
-            <img src="./img/article-3.jpg" alt="" width="327" height="200">
+            <picture>
+              <source srcset="img/article-3-tablet.jpg" media="(min-width: 576px)">
+              <img src="./img/article-3.jpg" alt="Article Image">
+            </picture>
             <div class="articles-list__item-wrapper">
               <p class="articles-list__item-author">By Wilson Hutton</p>
               <p class="articles-list__item-title">Take your Easybank card wherever you go</p>
-              <p class="articles-list__item-description">We want you to enjoy your travels. This is why we don’t charge any
+              <p class="articles-list__item-description">We want you to enjoy your travels. This is why we don’t charge
+                any
                 fees
                 on purchases while you’re abroad. We’ll even show you …</p>
             </div>
           </li>
           <li class="articles-list__item">
-            <img src="./img/article-4.jpg" alt="" width="327" height="200">
+            <picture>
+              <source srcset="img/article-4-tablet.jpg" media="(min-width: 576px)">
+              <img src="./img/article-4.jpg" alt="Article Image">
+            </picture>
             <div class="articles-list__item-wrapper">
               <p class="articles-list__item-author">By Claire Robinson</p>
               <p class="articles-list__item-title">Our invite-only Beta accounts are now live!</p>
-              <p class="articles-list__item-description">After a lot of hard work by the whole team, we’re excited to launch
+              <p class="articles-list__item-description">After a lot of hard work by the whole team, we’re excited to
+                launch
                 our
                 closed beta. It’s easy to request an invite through the site ...</p>
             </div>
           </li>
         </ul>
-      </section>
+      </div>
+
+    </section>
     </div>
   </main>
   <footer class="page-footer">
@@ -122,11 +137,46 @@
           <img src="../img/logo-footer.svg" width="139" height="20" alt="EasyBank Logo">
         </a>
         <ul class="social-icons">
-          <li class="social-icons__item" aria-label="EasyBank in Facebook"><a href="#"></a></li>
-          <li class="social-icons__item" aria-label="EasyBank in Youtube"><a href="#"></a></li>
-          <li class="social-icons__item" aria-label="EasyBank in Twitter"><a href="#"></a></li>
-          <li class="social-icons__item" aria-label="EasyBank in Pinterest"><a href="#"></a></li>
-          <li class="social-icons__item" aria-label="EasyBank in Instagram"><a href="#"></a></li>
+          <li class="social-icons__item" aria-label="EasyBank in Facebook">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                <path fill="#fff"
+                  d="M22.675 0H1.325C.593 0 0 .593 0 1.325v21.351C0 23.407.593 24 1.325 24H12.82v-9.294H9.692v-3.622h3.128V8.413c0-3.1 1.893-4.788 4.659-4.788 1.325 0 2.463.099 2.795.143v3.24l-1.918.001c-1.504 0-1.795.715-1.795 1.763v2.313h3.587l-.467 3.622h-3.12V24h6.116c.73 0 1.323-.593 1.323-1.325V1.325C24 .593 23.407 0 22.675 0z" />
+              </svg>
+            </a>
+          </li>
+          <li class="social-icons__item" aria-label="EasyBank in Youtube">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                <path fill="#fff"
+                  d="M10 9.658v4.684l4.917-2.346zm6.441 7.234c-2.102.144-6.784.144-8.883 0C5.282 16.736 5.017 15.622 5 12c.017-3.629.285-4.736 2.558-4.892 2.099-.144 6.782-.144 8.883 0C18.718 7.264 18.982 8.378 19 12c-.018 3.629-.285 4.736-2.559 4.892zM12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0z" />
+              </svg>
+            </a>
+          </li>
+          <li class="social-icons__item" aria-label="EasyBank in Twitter">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="20">
+                <path fill="#fff"
+                  d="M24 2.559a9.83 9.83 0 01-2.828.775A4.932 4.932 0 0023.337.61a9.864 9.864 0 01-3.127 1.195A4.916 4.916 0 0016.616.25c-3.179 0-5.515 2.966-4.797 6.045A13.978 13.978 0 011.671 1.151a4.93 4.93 0 001.523 6.574 4.903 4.903 0 01-2.229-.616c-.054 2.281 1.581 4.415 3.949 4.89a4.935 4.935 0 01-2.224.084 4.928 4.928 0 004.6 3.419A9.9 9.9 0 010 17.542a13.94 13.94 0 007.548 2.212c9.142 0 14.307-7.721 13.995-14.646A10.025 10.025 0 0024 2.559z" />
+              </svg>
+            </a>
+          </li>
+          <li class="social-icons__item" aria-label="EasyBank in Pinterest">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                <path fill="#fff"
+                  d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 01.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z" />
+              </svg>
+            </a>
+          </li>
+          <li class="social-icons__item" aria-label="EasyBank in Instagram">
+            <a href="#">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                <path fill="#fff"
+                  d="M19.845 5.595a1.44 1.44 0 11-2.879.001 1.44 1.44 0 012.879-.001zM16 12a4 4 0 10-8 0 4 4 0 008 0zm2.162 0a6.162 6.162 0 11-12.325.001A6.162 6.162 0 0118.162 12zM16.949.073c4.362.2 6.783 2.626 6.979 6.98C23.986 8.333 24 8.741 24 12c0 3.259-.014 3.668-.073 4.948-.197 4.362-2.625 6.78-6.979 6.98-1.28.058-1.689.072-4.948.072-3.259 0-3.667-.014-4.948-.072-4.362-.2-6.78-2.622-6.98-6.98C.014 15.668 0 15.259 0 12c0-3.259.014-3.667.073-4.948.2-4.362 2.622-6.78 6.98-6.98C8.333.014 8.741 0 12 0c3.259 0 3.668.014 4.949.073zM12 2.163c-3.204 0-3.583.012-4.849.069-3.255.148-4.77 1.692-4.919 4.919-.057 1.266-.07 1.645-.07 4.849 0 3.205.012 3.584.07 4.849.148 3.221 1.659 4.771 4.919 4.92 1.265.058 1.645.07 4.849.07 3.206 0 3.584-.012 4.85-.07 3.255-.148 4.77-1.694 4.919-4.919.057-1.265.069-1.644.069-4.849 0-3.204-.011-3.584-.069-4.849-.148-3.228-1.667-4.771-4.919-4.919-1.266-.058-1.646-.07-4.85-.07z" />
+              </svg>
+            </a>
+          </li>
         </ul>
       </div>
       <nav class="page-footer__nav">

@@ -3,6 +3,7 @@ const plumber = require("gulp-plumber");
 const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps")
 const server = require("browser-sync");
+const imagemin = require("gulp-imagemin");
 
 gulp.task("css", function () {
   return gulp.src("src/scss/style.scss")
@@ -29,6 +30,15 @@ gulp.task("refresh", function (done) {
   done();
 });
 
+gulp.task("image", function () {
+  return gulp.src("src/img/**/*.{png,jpg,svg}")
+  .pipe(imagemin([
+    imagemin.optipng({optimizationLevel: 3}),
+    imagemin.mozjpeg({progressive: true}),
+    imagemin.svgo()
+  ]))
+  .pipe(gulp.dest("src/img/"))
+})
 
 gulp.watch("src/scss/**/*.scss", gulp.series("css"));
 gulp.watch("src/*.html", gulp.series("refresh"));

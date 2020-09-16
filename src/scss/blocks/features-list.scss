@@ -1,12 +1,24 @@
 .features-list {
   @include reset-list;
-
   padding: 0 26px;
+
+  @include media-breakpoint-up(sm) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0;
+  }
 
   &__item {
     position: relative;
     margin-bottom: 32px;
     padding-top: 98px;
+    padding-bottom: 24px;
+
+    @include media-breakpoint-up(sm) {
+      width: 255px;
+      margin-bottom: 30px;
+    }
 
     &:first-child::after {
       content: "";

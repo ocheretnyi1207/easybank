@@ -14,6 +14,7 @@ btnOpenMenu.addEventListener("click", (evt) => {
     btnOpenMenu.style.width = "18px";
     btnOpenMenu.style.height = "19px";
     sectionAboutBank.style.background = `linear-gradient(180deg, #2d314d 0%, rgba(45, 49, 77, 0) 100%), url("../img/bg-about.jpg") -41px -83px no-repeat`;
+    headerNavMenu.style.boxShadow = "1px 1px 5px 4px rgba(0,0,0,0.2)";
   } else {
     btnOpenMenu.style.backgroundImage = `url("../img/icon-burger.svg")`;
     btnOpenMenu.style.width = "24px";

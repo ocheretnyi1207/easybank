@@ -1,11 +1,13 @@
 @import "./var";
 @import "./mixin";
-@import "./fonts";
-@import "./global";
+@import "../../node_modules/bootstrap/scss/bootstrap-grid";
 @import "./normalize";
 @import "./visuallyhidden";
+@import "./fonts";
+@import "./global";
 @import "./blocks/page-header";
 @import "./blocks/headernav-list";
+@import "./blocks/page-main";
 @import "./blocks/about-bank";
 @import "./blocks/invite-btn";
 @import "./blocks/features";
