@@ -1,5 +1,6 @@
 .features-list {
   @include reset-list;
+
   padding: 0 26px;
 
   @include media-breakpoint-up(sm) {

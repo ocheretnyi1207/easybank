@@ -2,7 +2,7 @@
   padding: 88px 0 64px;
 
   @include media-breakpoint-up(sm) {
-  padding-bottom: 40px;
+    padding-bottom: 40px;
   }
 
   &__title {

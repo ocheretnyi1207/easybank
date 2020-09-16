@@ -6,17 +6,15 @@
   background-color: #ffffff;
 
   &__nav {
-    width: 100%;
-    padding: 0 26px;
     display: flex;
     justify-content: space-between;
+    width: 100%;
+    padding: 0 26px;
 
     @include media-breakpoint-up(sm) {
       padding: 0 8px;
     }
   }
-
-
 
   &__btn {
     width: 24px;

@@ -4,11 +4,11 @@
 
   &__heading {
     margin-bottom: 17px;
+    padding: 0 26px;
     font-weight: 100;
     font-size: $heading-fz;
     text-align: center;
     color: $title-color;
-    padding: 0 26px;
 
     @include media-breakpoint-up(sm) {
       padding: 0;
@@ -16,8 +16,8 @@
   }
 
   &__text {
-    padding: 0 26px;
     margin-bottom: 30px;
+    padding: 0 26px;
     font-size: $text-fz;
     line-height: 1.563rem;
     text-align: center;

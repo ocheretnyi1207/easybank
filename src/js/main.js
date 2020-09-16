@@ -2,7 +2,7 @@
 
 const btnOpenMenu = document.querySelector(".page-header__btn");
 const headerNavMenu = document.querySelector(".headernav-list");
-const sectionAboutBank =document.querySelector(".about-bank");
+const sectionAboutBank = document.querySelector(".about-bank");
 
 btnOpenMenu.addEventListener("click", (evt) => {
   evt.preventDefault();

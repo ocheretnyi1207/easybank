@@ -7,7 +7,6 @@
   width: 184px;
   margin: 0 auto 54px auto;
 
-
   &__item {
     position: relative;
 
@@ -20,7 +19,7 @@
       padding-top: 2px;
     }
 
-    a:hover path{
+    a:hover path {
       fill: $hover-color;
     }
   }

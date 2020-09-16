@@ -11,8 +11,8 @@
   border-radius: 4px;
 
   @include media-breakpoint-up(sm) {
-    width: 500px;
     left: calc(50% - 500px / 2);
+    width: 500px;
   }
 
   &--hide {
