@@ -32,7 +32,7 @@
 
     &-author {
       margin-bottom: 8px;
-      font-size: $author-fz;
+      font-size: $author;
       line-height: 1.125rem;
       color: $text-color;
     }
@@ -46,7 +46,7 @@
     }
 
     &-description {
-      font-size: $description-fz;
+      font-size: $description;
       line-height: 1.125rem;
       color: $text-color;
     }
