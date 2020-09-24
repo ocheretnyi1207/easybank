@@ -7,6 +7,11 @@
   width: 184px;
   margin: 0 auto 54px auto;
 
+  @include media-breakpoint-up(xl) {
+    width: 154px;
+    margin: 0;
+  }
+
   &__item {
     position: relative;
 

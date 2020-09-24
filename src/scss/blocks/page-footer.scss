@@ -2,16 +2,44 @@
   padding-bottom: 40px;
   background-color: $title-color;
 
+  @include media-breakpoint-up(xl) {
+    padding-top: 48px;
+  }
+
+  .container {
+    @include media-breakpoint-up(xl) {
+      display: flex;
+    }
+  }
+
   &__wrapper {
     width: 209px;
     margin: 0 auto;
     padding-top: 40px;
+
+    @include media-breakpoint-up(xl) {
+      width: auto;
+      margin: 0;
+      margin-right: 131px;
+      padding: 0;
+    }
+  }
+
+  &__nav {
+    @include media-breakpoint-up(xl) {
+      margin-right: auto;
+    }
   }
 
   &__logo {
     display: block;
     width: 139px;
     margin: 0 auto 34px auto;
+
+    @include media-breakpoint-up(xl) {
+      margin: 0;
+      margin-bottom: 55px;
+    }
   }
 
   &__copyrights {

@@ -17,8 +17,8 @@
     @include media-breakpoint-up(xl) {
       margin-bottom: 16px;
       font-size: $heading;
-      text-align-last: left;
       color: $title-color;
+      text-align-last: left;
     }
   }
 

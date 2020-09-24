@@ -5,11 +5,21 @@
     padding-bottom: 40px;
   }
 
+  @include media-breakpoint-up(xl) {
+    padding-top: 120px;
+  }
+
   &__title {
     margin-bottom: 31px;
     font-weight: 100;
     font-size: $title;
     text-align: center;
     color: $title-color;
+
+    @include media-breakpoint-up(xl) {
+      margin-bottom: 40px;
+      font-size: $heading;
+      text-align: left;
+    }
   }
 }
