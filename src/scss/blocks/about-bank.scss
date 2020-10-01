@@ -3,10 +3,18 @@
   padding-bottom: 88px;
   background: url("../img/bg-about.jpg") -41px -83px no-repeat;
 
+  @include media-breakpoint-up(sm) {
+    background-position-x: 25vw;
+  }
+
+  @include media-breakpoint-up(md) {
+    background-position-x: 40vw;
+  }
+
   @include media-breakpoint-up(xl) {
     padding-top: 250px;
     padding-bottom: 346px;
-    background: url("../img/bg-about-desktop.jpg") 450px -175px no-repeat;
+    background: url("../img/bg-about-desktop.jpg") 55vw -175px no-repeat;
   }
 
   &__heading {

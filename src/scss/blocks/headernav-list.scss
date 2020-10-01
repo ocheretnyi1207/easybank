@@ -15,7 +15,7 @@
     width: 500px;
   }
 
-  &--desktop {
+  &--hide {
     display: none;
 
     @include media-breakpoint-up(xl) {
