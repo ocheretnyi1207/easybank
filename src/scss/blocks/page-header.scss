@@ -26,7 +26,7 @@
 
   &__logo {
     cursor: url("../img/cursor.svg"), pointer;
-    
+
     @include media-breakpoint-up(xl) {
       padding-top: 15px;
     }
