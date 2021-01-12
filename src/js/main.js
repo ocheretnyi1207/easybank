@@ -3,7 +3,6 @@
 const headerBtn = document.querySelector(".page-header__btn");
 const navMenu = document.querySelector(".headernav-list");
 const sectionAboutBank = document.querySelector(".about-bank");
-const WIDTH_DSKTOP = 1200;
 
 headerBtn.addEventListener("click", (evt) => {
   evt.preventDefault();
